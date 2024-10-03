@@ -4,9 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cng calculator</title>
-    <link rel="stylesheet" crossorigin href="/cng-calculator/assets/index-DM_LWsO5.css">
+    <link rel="stylesheet" crossorigin href="/cng-calculator/assets/index-sXj12lFm.css">
   </head>
-  <body>
-   <h1 class="bg-red-500">Helll</h1>
+  <body class="bg-gradient-to-r from-purple-500  to-red-500 min-h-screen font-roboto">
+    <div class="bg-zinc-800 sm:bg-white p-10 max-w-lg mx-auto mt-10 rounded shadow-xl">
+      <div> <h1 class="font-bold text-red-500">CNG Cost Calculator</h1>
+      <form class="mt-5 space-y-4">
+        <div>
+          <label class="form-label" for="trip distance">Trip Distance <span class="text-red-500">*</span></label>
+        <input id="trip distance" type="number" placeholder="Trip Distance" class="form-input">
+        </div>
+        <div>
+          <label class="form-label" for="fuel-efficency">Fuel Efficency <span class="text-red-500">*</span></label>
+        <input id="fuel-efficency" type="number" placeholder="Fuel Efficency" class="form-input" value="24">
+        </div>
+        <div>
+          <label class="form-label" for="fuel-cost">Fuel Cost <span class="text-red-500">*</span></label>
+        <input id="fuel-cost" type="number" placeholder="Fuel Cost" class="form-input" value="44">
+        </div>
+        <div>
+          <button class="bg-red-500 px-5 py-2 text-white rounded w-full">Calculate</button>
+        </div>
+      </form>
+     
+    </div>
   </body>
 </html>
